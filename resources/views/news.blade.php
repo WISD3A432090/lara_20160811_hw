@@ -79,7 +79,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Laravel
+            最新消息
         </div>
 
         <div class="links">
