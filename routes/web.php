@@ -11,6 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('首頁/',['as'=>'hello.index',function($name=
+                                                       'Everybody'){
+    return'Hello,'.$name;
+
+}]);
+
+Route::get('關於本站/about',['as'=>'about.index',function($name=
+                                                       'Everybody'){
+    return'Hello,'.$name;
+
+}]);
+
+Route::get('最新消息/news',['as'=>'news.index',function($name=
+                                                       'Everybody'){
+    return'Hello,'.$name;
+
+}]);
