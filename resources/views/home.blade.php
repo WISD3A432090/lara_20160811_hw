@@ -88,8 +88,8 @@
             <a href="https://laravel-news.com">News</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
-            <a href="http://localhost:8000/關於本站/about">關於本站</a>
-            <a href="http://localhost:8000/最新消息/news">最新消息</a>
+            <a href="{{route('news.index')}}">關於本站</a>
+            <a href="{{route('about.index')}}">最新消息</a>
         </div>
     </div>
 </div>
