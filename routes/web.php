@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('首頁/',['as'=>'home.index','uses'=> 'HomeController@index']);
 
 
-Route::get('關於本站/about',['as'=>'about.index','uses'=> 'AboutController@index']);
+Route::get('/',['as'=>'home.index','uses'=> 'HomeController@index']);
 
 
-Route::get('最新消息/news',['as'=>'news.index','uses'=> 'NewsController@index']);
+Route::get('/about',['as'=>'about.index','uses'=> 'AboutController@index']);
+
+
+Route::get('/news',['as'=>'news.index','uses'=> 'NewsController@index']);
